@@ -7,7 +7,7 @@ Developer account: The Face Analysis's own account (separate from the other bran
 thefaceanalysis.com domain via Search Console.
 
 ## Name
-1.0.1: True Mirror: Webcam Mirror & Flip Image – The Face Analysis (localised in _locales: en, es, pt_BR, de, fr — see "1.0.1 update" below).
+1.0.1: True Mirror & Flip Image – The Face Analysis (localised in _locales: en, es, pt_BR, de, fr — see "1.0.1 update" below).
 1.0.0 (first submission): True Mirror & Face Photo Helper by The Face Analysis
 
 ## Summary (≤132)
@@ -142,11 +142,11 @@ Do this only after 1.0.0 is approved (a new package during review restarts the r
 
 | Listing language | Name (from package) | Summary (from package) | Description to paste |
 |---|---|---|---|
-| English | True Mirror: Webcam Mirror & Flip Image – The Face Analysis | Online true mirror for your webcam: see the non-reversed view others see, check your light and flip any image. Nothing is uploaded. | `store/descriptions/en.md` |
-| Spanish (Español) | Espejo online – Espejo de cámara y voltear imagen | The Face Analysis | Espejo online para tu webcam: mira tu cara sin invertir, como te ven los demás, revisa la luz y voltea imágenes. Nada se sube. | `store/descriptions/es.md` |
-| Portuguese (Brazil) | Espelho online – Câmera espelho e inverter imagem | The Face Analysis | Espelho online na webcam: veja o rosto sem inverter, como os outros veem, confira a luz e inverta qualquer imagem. Nada é enviado. | `store/descriptions/pt_BR.md` |
-| German (Deutsch) | Spiegel-Kamera – Webcam-Spiegel & Bild spiegeln | The Face Analysis | Online-Spiegel für deine Webcam: sieh dein Gesicht ungespiegelt wie andere, prüfe das Licht und spiegle jedes Bild. Kein Upload. | `store/descriptions/de.md` |
-| French (Français) | Miroir en ligne – Miroir webcam et inverser l'image | The Face Analysis | Miroir en ligne pour votre webcam : voyez votre visage non inversé, vérifiez la lumière et inversez une image. Rien n'est envoyé. | `store/descriptions/fr.md` |
+| English | True Mirror & Flip Image – The Face Analysis | Online true mirror for your webcam: see the non-reversed view others see, check your light and flip any image. Nothing is uploaded. | `store/descriptions/en.md` |
+| Spanish (Español) | Espejo online y voltear imagen – The Face Analysis | Espejo online para tu webcam: mira tu cara sin invertir, como te ven los demás, revisa la luz y voltea imágenes. Nada se sube. | `store/descriptions/es.md` |
+| Portuguese (Brazil) | Espelho online e inverter foto – The Face Analysis | Espelho online na webcam: veja o rosto sem inverter, como os outros veem, confira a luz e inverta qualquer imagem. Nada é enviado. | `store/descriptions/pt_BR.md` |
+| German (Deutsch) | Spiegel-Kamera & Bild spiegeln – The Face Analysis | Online-Spiegel für deine Webcam: sieh dein Gesicht ungespiegelt wie andere, prüfe das Licht und spiegle jedes Bild. Kein Upload. | `store/descriptions/de.md` |
+| French (Français) | Miroir en ligne et webcam – The Face Analysis | Miroir en ligne pour votre webcam : voyez votre visage non inversé, vérifiez la lumière et inversez une image. Rien n'est envoyé. | `store/descriptions/fr.md` |
 
 What changed in 1.0.1: keyword name + summary, UI in 5 languages (es, pt_BR, de, fr added; tool pages on the site stay English and say so),
 a quiet "Rate it in the store" line shown only after use on 5 different days (never again once clicked or closed; no incentive),
@@ -158,7 +158,7 @@ a quiet "Rate it in the store" line shown only after use on 5 different days (ne
 | US | true mirror | 18,100 | name, description |
 | US | online mirror / mirror online | 8,100 / 3,600 | summary, description |
 | US | true mirror online | 3,600 | summary + description |
-| US | webcam mirror | 2,900 | name, description |
+| US | webcam mirror | 2,900 | summary ("for your webcam"), description |
 | US | non reversed mirror | 2,900 | summary ("non-reversed"), description |
 | US | mirror camera / camera mirror | 2,900 / 1,300 | description, search terms |
 | US | selfie mirror | 2,900 | — (not the main intent) |
@@ -169,18 +169,18 @@ a quiet "Rate it in the store" line shown only after use on 5 different days (ne
 | US | webcam test / camera test | 74,000 / 27,100 | not used: different intent (testing a webcam) |
 | ES+MX | espejo online | 1,900 + 590 | es name + summary |
 | ES+MX | voltear imagen / invertir imagen | 590+880 / 720+590 | es name / description |
-| ES+MX | espejo cámara, cámara espejo, espejo virtual | 170–260 each | es name, search terms |
-| BR | inverter imagem / espelhar imagem | 2,400 / 1,900 | pt name / description |
+| ES+MX | espejo cámara, cámara espejo, espejo virtual | 170–260 each | description, search terms |
+| BR | inverter imagem / espelhar imagem | 2,400 / 1,900 | pt name ("inverter foto", 50-char cap) + summary / description |
 | BR | espelho online / espelho virtual | 880 / 720 | pt name + summary |
-| BR | câmera espelho / espelho câmera | 320 / 170 | pt name |
+| BR | câmera espelho / espelho câmera | 320 / 170 | search terms |
 | DE | bild spiegeln | 1,600 | de name |
 | DE | spiegel kamera | 880 | de name |
 | DE | "online spiegel" | 1,000,000 | not used: that is the news site |
-| FR | inverser image / retourner image | 1,000 / 390 | fr name / description |
+| FR | inverser image / retourner image | 1,000 / 390 | summary ("inversez une image") / description |
 | FR | miroir en ligne | 880 | fr name + summary |
 | TR | ayna kamera / kamera ayna | 880 / 260 | not added yet: TR ≈1.8k mirror-intent searches, smallest market; next candidate |
 
-Mirror-intent totals (excluding webcam-test terms): ES+MX ≈ 6.6k, BR ≈ 6.4k, DE ≈ 2.5k, FR ≈ 2.5k, TR ≈ 1.8k → es, pt_BR, de, fr added.
+Names are ≤50 characters in every language (AMO caps add-on names at 50; Chrome allows 75). Mirror-intent totals (excluding webcam-test terms): ES+MX ≈ 6.6k, BR ≈ 6.4k, DE ≈ 2.5k, FR ≈ 2.5k, TR ≈ 1.8k → es, pt_BR, de, fr added.
 
 ## Microsoft Edge Add-ons (Partner Center) — every field
 Panel: https://partner.microsoft.com/dashboard/microsoftedge → **Create new extension**. Account: The Face Analysis's own Microsoft account (made with hi@thefaceanalysis.com).
