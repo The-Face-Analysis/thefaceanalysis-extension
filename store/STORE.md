@@ -46,11 +46,19 @@ Made by The Face Analysis — free face measurement tools at thefaceanalysis.com
 ## Single purpose (CWS field)
 Help people take a straight, well-lit photo of their own face: a true-mirror camera view with a face guide and lighting check, a photo flipper, and saving the result locally.
 
-## Permission justifications
-- storage: remember the user's view settings (mirror/true view, zoom, guide, light ring, timer, chosen measurement).
-- Camera: requested by the browser's own prompt on the extension's studio page (getUserMedia) when the user opens the mirror; it is not a manifest permission. Frames are processed in the page and never sent anywhere.
-- No host permissions, no content scripts, no activeTab: the extension never reads or changes websites.
-- Remote code: No.
+## Permission justifications (paste each into its own CWS field)
+
+**storage**
+Remember the user's view settings (mirror/true view, zoom, guide, light ring, timer, chosen measurement).
+
+**Camera**
+Requested by the browser's own prompt on the extension's studio page (getUserMedia) when the user opens the mirror; it is not a manifest permission. Frames are processed in the page and never sent anywhere.
+
+**No host permissions, no content scripts, no activeTab**
+The extension never reads or changes websites.
+
+**Remote code**
+No.
 
 ## Data usage (CWS privacy tab)
 Collects nothing. Tick none of the data types (the camera image is processed locally and not "collected" — it is never transmitted or stored by the developer). Certify: not sold, not used for unrelated purposes, not used for creditworthiness.
@@ -73,3 +81,48 @@ Firefox `data_collection_permissions`: required ["none"] (already in the built m
 ## Before submitting
 - thefaceanalysis.com/extension must be live (install/uninstall pages + #privacy) — install opens it.
 - Review: "true mirror" is a generic term; no competitor names anywhere in the listing.
+
+
+## CWS panel — every field, in panel order
+Nothing on this list is optional to check; fields marked (leave empty) really stay empty.
+
+### Package
+Upload `dist/thefaceanalysis-extension-chrome-<version>.zip`.
+
+### Store listing
+- Description: "Description" section above (paste as-is).
+- Category: Tools ("Araçlar"; if the panel offers "Photos", that also fits). Edge: "Photos"
+- Language: English (other languages come from _locales automatically).
+- Store icon: static/icons/128.png
+- Screenshots: every store/screenshot-*.png (1280×800), in file-name order.
+- Small promo tile: store/promo-small-440x280.png
+- Marquee promo tile, promo video: (leave empty)
+- Official URL: https://thefaceanalysis.com (shows only after the domain is verified in Search Console with this same Google account)
+- Homepage URL: https://thefaceanalysis.com/extension
+- Support URL: https://thefaceanalysis.com/extension
+- Mature content: No
+
+### Privacy
+- Single purpose: "Single purpose" section above.
+- Permission justifications: one field per permission, text from "Permission justifications" above.
+- Are you using remote code? **No** (justification field: leave empty)
+- Data usage — "What user data do you plan to collect?": tick **none** of the 9 boxes
+  (personally identifiable, health, financial/payment, authentication, personal communications,
+  location, web history, user activity, website content). Reading the open page or camera
+  locally is not "collecting": nothing leaves the browser.
+- Data usage — tick **all 3** certifications (not sold/transferred, not used for unrelated
+  purposes, not used for creditworthiness/lending).
+- Privacy policy URL: https://thefaceanalysis.com/extension#privacy (must be live before "Submit for review")
+
+### Distribution
+- Payments: Free (no in-app purchases)
+- Visibility: Public
+- Regions: All regions
+
+### Test instructions
+- Doesn't need one. Click the toolbar icon → Open mirror; allow the camera when the browser asks. No account or login.
+- Username / password: (leave empty)
+
+### Account (once per developer account)
+- Trader declaration: non-trader (user's decision 2026-11-25)
+- Publisher display name: brand name; verify the contact email.
