@@ -1,0 +1,11 @@
+import { chromium } from "playwright";
+const ext = process.argv[2];
+const ctx = await chromium.launchPersistentContext(`/tmp/ext-test-tfa/profile-d${Date.now()}`, { channel: "chromium", headless: true, viewport: { width: 1280, height: 800 }, args: [`--disable-extensions-except=${ext}`, `--load-extension=${ext}`] });
+let [sw] = ctx.serviceWorkers(); if (!sw) sw = await ctx.waitForEvent("serviceworker");
+const id = sw.url().split("/")[2];
+const p = await ctx.newPage();
+await p.addInitScript(() => { navigator.mediaDevices.getUserMedia = () => Promise.reject(new DOMException("x", "NotAllowedError")); });
+await p.goto(`chrome-extension://${id}/studio.html`); await p.waitForTimeout(800);
+await p.screenshot({ path: "/tmp/ext-test-tfa/7-denied.png" });
+console.log(await p.textContent("#camMsg"));
+await ctx.close();

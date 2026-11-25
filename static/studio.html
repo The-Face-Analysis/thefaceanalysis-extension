@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>True Mirror &amp; Face Photo Helper</title>
+  <link rel="icon" href="icons/32.png" />
+  <link rel="stylesheet" href="studio.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+  <header class="top">
+    <a class="brand" id="brand" target="_blank" rel="noopener">
+      <img src="icons/48.png" alt="" width="28" height="28" />
+      <span>The Face Analysis</span>
+    </a>
+    <nav class="tabs" role="tablist">
+      <button role="tab" id="tab-camera" data-tab="camera" data-i18n="tabCamera"></button>
+      <button role="tab" id="tab-photo" data-tab="photo" data-i18n="tabPhoto"></button>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <p class="eyebrow" data-i18n="eyebrow"></p>
+    <h1 data-i18n="h1"></h1>
+    <p class="lede" data-i18n="lede"></p>
+  </section>
+
+  <!-- CAMERA -->
+  <main class="layout" id="pane-camera">
+    <div class="stage-wrap" id="stageWrap">
+      <div class="stage" id="stage">
+        <video id="video" playsinline muted autoplay></video>
+        <canvas id="frozen" hidden></canvas>
+        <svg class="guides" id="guides" viewBox="0 0 300 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+          <g class="thirds">
+            <line x1="100" y1="0" x2="100" y2="400" /><line x1="200" y1="0" x2="200" y2="400" />
+            <line x1="0" y1="133" x2="300" y2="133" /><line x1="0" y1="267" x2="300" y2="267" />
+          </g>
+          <ellipse class="oval" cx="150" cy="190" rx="92" ry="126" />
+          <line class="mid" x1="150" y1="40" x2="150" y2="345" />
+          <line class="eye" x1="68" y1="168" x2="232" y2="168" />
+          <text x="236" y="165" class="lbl" data-i18n="guideEyes"></text>
+          <text x="154" y="356" class="lbl" data-i18n="guideChin"></text>
+        </svg>
+        <div class="count" id="count" hidden></div>
+        <div class="state" id="camState" hidden>
+          <p id="camMsg"></p>
+          <div class="state-actions">
+            <button class="btn" id="retryCam" data-i18n="retryCam"></button>
+            <button class="btn ghost" id="toPhoto" data-i18n="usePhotoInstead"></button>
+          </div>
+        </div>
+        <span class="badge" id="viewBadge"></span>
+      </div>
+    </div>
+
+    <aside class="panel">
+      <div class="card">
+        <h2 data-i18n="secView"></h2>
+        <div class="seg" id="view">
+          <button data-v="mirror" data-i18n="viewMirror"></button>
+          <button data-v="camera" data-i18n="viewTrue"></button>
+        </div>
+        <p class="hint" id="viewHint"></p>
+        <label class="range"><span data-i18n="zoom"></span><input type="range" id="zoom" min="1" max="3" step="0.1" data-i18n-aria="zoom" /><output id="zoomOut"></output></label>
+        <div class="toggles">
+          <button class="pill" id="grid" aria-pressed="false" data-i18n="guides"></button>
+          <button class="pill" id="ring" aria-pressed="false" data-i18n="ringLight"></button>
+          <button class="pill" id="timer" aria-pressed="false"></button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 data-i18n="secLight"></h2>
+        <p class="status" id="lightStatus" data-level="wait" data-i18n="lightWaiting"></p>
+        <div class="meter"><span data-i18n="mBrightness"></span><div class="bar"><i id="mBright"></i><b class="band"></b></div></div>
+        <div class="meter"><span data-i18n="mEvenness"></span><div class="bar"><i id="mEven"></i></div></div>
+        <div class="meter"><span data-i18n="mHighlights"></span><div class="bar"><i id="mClip" class="warn"></i></div></div>
+      </div>
+
+      <div class="card actions">
+        <button class="btn" id="freeze" data-i18n="freeze"></button>
+        <button class="btn primary" id="save" data-i18n="save"></button>
+        <label class="check"><input type="checkbox" id="saveMirrored" /><span data-i18n="saveMirrored"></span></label>
+        <p class="hint" data-i18n="keys"></p>
+      </div>
+
+      <div class="card measure" id="measureCam"></div>
+    </aside>
+  </main>
+
+  <!-- PHOTO -->
+  <main class="layout" id="pane-photo" hidden>
+    <div class="stage-wrap">
+      <label class="drop" id="drop">
+        <input type="file" id="file" accept="image/*" hidden />
+        <strong data-i18n="dropTitle"></strong>
+        <span data-i18n="dropBody"></span>
+      </label>
+      <div class="pair" id="pair" hidden>
+        <figure><img id="asSaved" alt="" /><figcaption data-i18n="asSaved"></figcaption></figure>
+        <figure><img id="flipped" alt="" /><figcaption data-i18n="flipped"></figcaption></figure>
+      </div>
+    </div>
+    <aside class="panel">
+      <div class="card">
+        <h2 data-i18n="secLight"></h2>
+        <p class="status" id="photoLight" data-level="wait" data-i18n="photoWaiting"></p>
+        <div class="meter"><span data-i18n="mBrightness"></span><div class="bar"><i id="pBright"></i><b class="band"></b></div></div>
+        <div class="meter"><span data-i18n="mEvenness"></span><div class="bar"><i id="pEven"></i></div></div>
+        <div class="meter"><span data-i18n="mHighlights"></span><div class="bar"><i id="pClip" class="warn"></i></div></div>
+      </div>
+      <div class="card actions">
+        <button class="btn primary" id="saveFlipped" disabled data-i18n="saveFlipped"></button>
+        <button class="btn" id="choose" data-i18n="chooseAnother"></button>
+        <p class="hint" data-i18n="photoPrivacy"></p>
+      </div>
+      <div class="card measure" id="measurePhoto"></div>
+    </aside>
+  </main>
+
+  <template id="measureTpl">
+    <h2 data-i18n="secMeasure"></h2>
+    <p class="hint" data-i18n="measureBody"></p>
+    <select class="tool" data-i18n-aria="secMeasure"></select>
+    <a class="btn primary go" target="_blank" rel="noopener" data-i18n="measureBtn"></a>
+  </template>
+
+  <footer class="foot">
+    <p data-i18n="privacy"></p>
+    <p data-i18n="notAdvice"></p>
+  </footer>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script src="studio.js"></script>
+</body>
+</html>

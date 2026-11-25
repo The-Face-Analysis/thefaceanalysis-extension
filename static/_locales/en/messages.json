@@ -1,0 +1,241 @@
+{
+ "extName": {
+  "message": "True Mirror & Face Photo Helper by The Face Analysis"
+ },
+ "extDesc": {
+  "message": "True mirror and camera view, lighting check, face guide grid and photo flip — take a straight, well-lit photo of your own face."
+ },
+ "cmdOpen": {
+  "message": "Open the true mirror"
+ },
+ "popupEyebrow": {
+  "message": "The Face Analysis"
+ },
+ "popupCamera": {
+  "message": "Open the mirror"
+ },
+ "popupCameraSub": {
+  "message": "Mirror or true view, light check, face guide"
+ },
+ "popupPhoto": {
+  "message": "Flip a photo"
+ },
+ "popupPhotoSub": {
+  "message": "See a picture the way others see you"
+ },
+ "popupTools": {
+  "message": "Measure on thefaceanalysis.com"
+ },
+ "popupShortcut": {
+  "message": "Shortcut: Alt+Shift+F opens the mirror."
+ },
+ "privacy": {
+  "message": "Your camera picture and photos stay on this device. The extension uploads nothing and has no tracking."
+ },
+ "notAdvice": {
+  "message": "Measurements on thefaceanalysis.com are proportions, not a medical or beauty verdict."
+ },
+ "tabCamera": {
+  "message": "Mirror"
+ },
+ "tabPhoto": {
+  "message": "Flip a photo"
+ },
+ "eyebrow": {
+  "message": "True mirror · light check · face guide"
+ },
+ "h1": {
+  "message": "Take a straight, well-lit photo of your face"
+ },
+ "lede": {
+  "message": "Switch between the mirror and how a camera really sees you, line your face up with the guide, fix the light, then save the photo to measure it."
+ },
+ "guideEyes": {
+  "message": "eyes"
+ },
+ "guideChin": {
+  "message": "chin"
+ },
+ "retryCam": {
+  "message": "Try the camera again"
+ },
+ "usePhotoInstead": {
+  "message": "Flip a photo instead"
+ },
+ "camDenied": {
+  "message": "Camera access was blocked. Allow the camera for this extension in the address bar or browser settings, then try again."
+ },
+ "camMissing": {
+  "message": "No camera was found. Plug one in, or flip a photo instead."
+ },
+ "camError": {
+  "message": "The camera could not start. Close other apps that use it, then try again."
+ },
+ "camFirst": {
+  "message": "Start the camera first."
+ },
+ "secView": {
+  "message": "View"
+ },
+ "viewMirror": {
+  "message": "Mirror"
+ },
+ "viewTrue": {
+  "message": "True view"
+ },
+ "badgeMirror": {
+  "message": "Mirror view"
+ },
+ "badgeTrue": {
+  "message": "True view · how others see you"
+ },
+ "hintMirror": {
+  "message": "Flipped like a bathroom mirror — the face you are used to."
+ },
+ "hintTrue": {
+  "message": "Not flipped — how other people and cameras see you."
+ },
+ "zoom": {
+  "message": "Zoom"
+ },
+ "guides": {
+  "message": "Face guide"
+ },
+ "ringLight": {
+  "message": "Light ring"
+ },
+ "timerOff": {
+  "message": "Timer off"
+ },
+ "timerOn": {
+  "message": "Timer $SEC$ s",
+  "placeholders": {
+   "sec": {
+    "content": "$1"
+   }
+  }
+ },
+ "secLight": {
+  "message": "Lighting check"
+ },
+ "lightWaiting": {
+  "message": "Waiting for the camera…"
+ },
+ "photoWaiting": {
+  "message": "Add a photo to check its light."
+ },
+ "lightGood": {
+  "message": "Good light — even and bright enough."
+ },
+ "lightTooDark": {
+  "message": "Too dark. Face a window or a lamp."
+ },
+ "lightDim": {
+  "message": "A little dim. Move closer to the light."
+ },
+ "lightTooBright": {
+  "message": "Too bright — parts of the face are blown out. Soften or move away from the light."
+ },
+ "lightShiny": {
+  "message": "Some shine on the skin. Diffuse the light or turn slightly."
+ },
+ "lightUnevenLeft": {
+  "message": "Uneven: the left side of the picture is darker. Turn toward the light."
+ },
+ "lightUnevenRight": {
+  "message": "Uneven: the right side of the picture is darker. Turn toward the light."
+ },
+ "mBrightness": {
+  "message": "Brightness"
+ },
+ "mEvenness": {
+  "message": "Evenness"
+ },
+ "mHighlights": {
+  "message": "Blown out"
+ },
+ "freeze": {
+  "message": "Freeze frame"
+ },
+ "retake": {
+  "message": "Back to live"
+ },
+ "save": {
+  "message": "Save photo"
+ },
+ "saveMirrored": {
+  "message": "Save the mirrored version"
+ },
+ "keys": {
+  "message": "Keys: Space freeze · S save · M mirror/true · G guide · L light ring"
+ },
+ "saved": {
+  "message": "Saved to your downloads. Now upload it to a measurement below."
+ },
+ "savedFlipped": {
+  "message": "Flipped photo saved to your downloads."
+ },
+ "notImage": {
+  "message": "That file is not an image."
+ },
+ "dropTitle": {
+  "message": "Drop a photo here"
+ },
+ "dropBody": {
+  "message": "or click to choose one — you can also paste an image"
+ },
+ "asSaved": {
+  "message": "As saved"
+ },
+ "flipped": {
+  "message": "Flipped"
+ },
+ "saveFlipped": {
+  "message": "Save the flipped version"
+ },
+ "chooseAnother": {
+  "message": "Choose another photo"
+ },
+ "photoPrivacy": {
+  "message": "The photo is opened on this device only."
+ },
+ "secMeasure": {
+  "message": "Measure it"
+ },
+ "measureBody": {
+  "message": "Open a free measurement on thefaceanalysis.com and upload the photo you saved. This extension does not upload anything."
+ },
+ "measureBtn": {
+  "message": "Measure on thefaceanalysis.com"
+ },
+ "toolSymmetry": {
+  "message": "Face symmetry test"
+ },
+ "toolShape": {
+  "message": "Face shape detector"
+ },
+ "toolAttractiveness": {
+  "message": "Attractiveness test"
+ },
+ "toolGolden": {
+  "message": "Golden ratio face"
+ },
+ "toolThirds": {
+  "message": "Facial thirds"
+ },
+ "toolEyes": {
+  "message": "Eye shape detector"
+ },
+ "toolCanthal": {
+  "message": "Canthal tilt"
+ },
+ "toolJawline": {
+  "message": "Jawline rating"
+ },
+ "toolMirrorSite": {
+  "message": "Online mirror"
+ },
+ "popupTitle": {
+  "message": "True Mirror & Face Photo Helper"
+ }
+}
