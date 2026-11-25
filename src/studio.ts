@@ -1,4 +1,5 @@
 import { analyse, type LightReport } from "./light";
+import { mountRate, recordUse } from "./rate";
 import { DEFAULT_PREFS, i18nDom, loadPrefs, savePrefs, SITE, t, TOOLS, utm, type Prefs } from "./shared";
 
 const $ = <T extends Element = HTMLElement>(id: string) => document.getElementById(id) as unknown as T;
@@ -99,6 +100,7 @@ async function startCamera() {
     });
     video.srcObject = stream;
     await video.play().catch(() => {});
+    void recordUse();
     state.hidden = true;
     clearInterval(lightTimer);
     lightTimer = window.setInterval(() => {
@@ -251,6 +253,7 @@ function loadPhoto(file: File) {
   const img = new Image();
   img.onload = () => {
     photoImg = img;
+    void recordUse();
     $<HTMLImageElement>("asSaved").src = photoUrl!;
     const f = $<HTMLImageElement>("flipped");
     f.src = photoUrl!;
@@ -278,9 +281,10 @@ function saveFlipped() {
 // ---------- wiring ----------
 async function main() {
   i18nDom();
-  document.title = t("extName");
+  document.title = t("popupTitle");
   $<HTMLAnchorElement>("brand").href = `${SITE}/?${utm("studio")}`;
   prefs = await loadPrefs();
+  void mountRate($("rate"));
   applyView();
   buildMeasure($("measureCam"), "studio-camera");
   buildMeasure($("measurePhoto"), "studio-photo");

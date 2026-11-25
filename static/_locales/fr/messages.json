@@ -1,0 +1,253 @@
+{
+ "extName": {
+  "message": "Miroir en ligne – Miroir webcam et inverser l'image | The Face Analysis"
+ },
+ "extDesc": {
+  "message": "Miroir en ligne pour votre webcam : voyez votre visage non inversé, vérifiez la lumière et inversez une image. Rien n'est envoyé."
+ },
+ "cmdOpen": {
+  "message": "Ouvrir le vrai miroir"
+ },
+ "popupEyebrow": {
+  "message": "The Face Analysis"
+ },
+ "popupCamera": {
+  "message": "Ouvrir le miroir"
+ },
+ "popupCameraSub": {
+  "message": "Miroir ou vue réelle, lumière, repère du visage"
+ },
+ "popupPhoto": {
+  "message": "Inverser une photo"
+ },
+ "popupPhotoSub": {
+  "message": "Voyez une image comme les autres vous voient"
+ },
+ "popupTools": {
+  "message": "Mesurer sur thefaceanalysis.com (en anglais)"
+ },
+ "popupShortcut": {
+  "message": "Raccourci : Alt+Shift+F ouvre le miroir."
+ },
+ "privacy": {
+  "message": "L'image de la caméra et vos photos restent sur cet appareil. L'extension n'envoie rien et ne suit rien."
+ },
+ "notAdvice": {
+  "message": "Les mesures de thefaceanalysis.com sont des proportions, pas un verdict médical ou esthétique."
+ },
+ "tabCamera": {
+  "message": "Miroir"
+ },
+ "tabPhoto": {
+  "message": "Inverser une photo"
+ },
+ "eyebrow": {
+  "message": "Vrai miroir · lumière · repère du visage"
+ },
+ "h1": {
+  "message": "Prenez une photo de votre visage droite et bien éclairée"
+ },
+ "lede": {
+  "message": "Passez du miroir à ce que voit vraiment une caméra, alignez votre visage sur le repère, corrigez la lumière, puis enregistrez la photo pour la mesurer."
+ },
+ "guideEyes": {
+  "message": "yeux"
+ },
+ "guideChin": {
+  "message": "menton"
+ },
+ "retryCam": {
+  "message": "Réessayer la caméra"
+ },
+ "usePhotoInstead": {
+  "message": "Inverser plutôt une photo"
+ },
+ "camDenied": {
+  "message": "L'accès à la caméra est bloqué. Autorisez la caméra pour cette extension dans la barre d'adresse ou les réglages du navigateur, puis réessayez."
+ },
+ "camMissing": {
+  "message": "Aucune caméra trouvée. Branchez-en une ou inversez une photo."
+ },
+ "camError": {
+  "message": "La caméra n'a pas pu démarrer. Fermez les autres applis qui l'utilisent, puis réessayez."
+ },
+ "camFirst": {
+  "message": "Démarrez d'abord la caméra."
+ },
+ "secView": {
+  "message": "Vue"
+ },
+ "viewMirror": {
+  "message": "Miroir"
+ },
+ "viewTrue": {
+  "message": "Vue réelle"
+ },
+ "badgeMirror": {
+  "message": "Vue miroir"
+ },
+ "badgeTrue": {
+  "message": "Vue réelle · comme les autres vous voient"
+ },
+ "hintMirror": {
+  "message": "Inversée comme un miroir de salle de bains : le visage que vous connaissez."
+ },
+ "hintTrue": {
+  "message": "Non inversée : comme les autres et les caméras vous voient."
+ },
+ "zoom": {
+  "message": "Zoom"
+ },
+ "guides": {
+  "message": "Repère du visage"
+ },
+ "ringLight": {
+  "message": "Anneau lumineux"
+ },
+ "timerOff": {
+  "message": "Minuteur désactivé"
+ },
+ "timerOn": {
+  "message": "Minuteur $SEC$ s",
+  "placeholders": {
+   "sec": {
+    "content": "$1"
+   }
+  }
+ },
+ "secLight": {
+  "message": "Vérification de la lumière"
+ },
+ "lightWaiting": {
+  "message": "En attente de la caméra…"
+ },
+ "photoWaiting": {
+  "message": "Ajoutez une photo pour vérifier sa lumière."
+ },
+ "lightGood": {
+  "message": "Bonne lumière : homogène et suffisante."
+ },
+ "lightTooDark": {
+  "message": "Trop sombre. Placez-vous face à une fenêtre ou une lampe."
+ },
+ "lightDim": {
+  "message": "Un peu sombre. Rapprochez-vous de la lumière."
+ },
+ "lightTooBright": {
+  "message": "Trop clair : certaines zones du visage sont brûlées. Adoucissez la lumière ou éloignez-vous."
+ },
+ "lightShiny": {
+  "message": "Un peu de brillance sur la peau. Diffusez la lumière ou tournez-vous légèrement."
+ },
+ "lightUnevenLeft": {
+  "message": "Inégal : le côté gauche de l'image est plus sombre. Tournez-vous vers la lumière."
+ },
+ "lightUnevenRight": {
+  "message": "Inégal : le côté droit de l'image est plus sombre. Tournez-vous vers la lumière."
+ },
+ "mBrightness": {
+  "message": "Luminosité"
+ },
+ "mEvenness": {
+  "message": "Homogénéité"
+ },
+ "mHighlights": {
+  "message": "Brûlé"
+ },
+ "freeze": {
+  "message": "Figer l'image"
+ },
+ "retake": {
+  "message": "Revenir au direct"
+ },
+ "save": {
+  "message": "Enregistrer la photo"
+ },
+ "saveMirrored": {
+  "message": "Enregistrer la version miroir"
+ },
+ "keys": {
+  "message": "Touches : Espace figer · S enregistrer · M miroir/réel · G repère · L anneau"
+ },
+ "saved": {
+  "message": "Enregistrée dans vos téléchargements. Envoyez-la maintenant vers une mesure ci-dessous."
+ },
+ "savedFlipped": {
+  "message": "Photo inversée enregistrée dans vos téléchargements."
+ },
+ "notImage": {
+  "message": "Ce fichier n'est pas une image."
+ },
+ "dropTitle": {
+  "message": "Déposez une photo ici"
+ },
+ "dropBody": {
+  "message": "ou cliquez pour en choisir une ; vous pouvez aussi coller une image"
+ },
+ "asSaved": {
+  "message": "Telle qu'enregistrée"
+ },
+ "flipped": {
+  "message": "Inversée"
+ },
+ "saveFlipped": {
+  "message": "Enregistrer la version inversée"
+ },
+ "chooseAnother": {
+  "message": "Choisir une autre photo"
+ },
+ "photoPrivacy": {
+  "message": "La photo est ouverte sur cet appareil uniquement."
+ },
+ "secMeasure": {
+  "message": "La mesurer"
+ },
+ "measureBody": {
+  "message": "Ouvrez une mesure gratuite sur thefaceanalysis.com (en anglais) et envoyez la photo enregistrée. Cette extension n'envoie rien."
+ },
+ "measureBtn": {
+  "message": "Mesurer sur thefaceanalysis.com"
+ },
+ "toolSymmetry": {
+  "message": "Test de symétrie du visage"
+ },
+ "toolShape": {
+  "message": "Détecteur de forme du visage"
+ },
+ "toolAttractiveness": {
+  "message": "Test d'attractivité"
+ },
+ "toolGolden": {
+  "message": "Nombre d'or du visage"
+ },
+ "toolThirds": {
+  "message": "Tiers du visage"
+ },
+ "toolEyes": {
+  "message": "Détecteur de forme des yeux"
+ },
+ "toolCanthal": {
+  "message": "Inclinaison canthale"
+ },
+ "toolJawline": {
+  "message": "Note de la mâchoire"
+ },
+ "toolMirrorSite": {
+  "message": "Miroir en ligne"
+ },
+ "popupTitle": {
+  "message": "Vrai miroir et inverser une photo"
+ },
+ "rateAsk": {
+  "message": "Le miroir vous est utile ?"
+ },
+ "rateLink": {
+  "message": "Notez-le sur la boutique"
+ },
+ "rateDismiss": {
+  "message": "Ne plus afficher"
+ },
+ "htmlLang": {
+  "message": "fr"
+ }
+}

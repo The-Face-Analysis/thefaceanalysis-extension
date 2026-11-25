@@ -1,3 +1,4 @@
+import { mountRate } from "./rate";
 import { api, i18nDom, SITE, t, TOOLS, utm } from "./shared";
 
 function open(tab: "camera" | "photo") {
@@ -5,6 +6,7 @@ function open(tab: "camera" | "photo") {
 }
 
 i18nDom();
+void mountRate(document.getElementById("rate")!);
 document.getElementById("openCamera")!.addEventListener("click", () => open("camera"));
 document.getElementById("openPhoto")!.addEventListener("click", () => open("photo"));
 const ul = document.getElementById("tools")!;

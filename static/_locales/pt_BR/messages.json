@@ -1,0 +1,253 @@
+{
+ "extName": {
+  "message": "Espelho online – Câmera espelho e inverter imagem | The Face Analysis"
+ },
+ "extDesc": {
+  "message": "Espelho online na webcam: veja o rosto sem inverter, como os outros veem, confira a luz e inverta qualquer imagem. Nada é enviado."
+ },
+ "cmdOpen": {
+  "message": "Abrir o espelho real"
+ },
+ "popupEyebrow": {
+  "message": "The Face Analysis"
+ },
+ "popupCamera": {
+  "message": "Abrir o espelho"
+ },
+ "popupCameraSub": {
+  "message": "Espelho ou visão real, luz, guia do rosto"
+ },
+ "popupPhoto": {
+  "message": "Inverter uma foto"
+ },
+ "popupPhotoSub": {
+  "message": "Veja uma imagem como os outros veem você"
+ },
+ "popupTools": {
+  "message": "Medir em thefaceanalysis.com (em inglês)"
+ },
+ "popupShortcut": {
+  "message": "Atalho: Alt+Shift+F abre o espelho."
+ },
+ "privacy": {
+  "message": "A imagem da câmera e suas fotos ficam neste dispositivo. A extensão não envia nada e não rastreia."
+ },
+ "notAdvice": {
+  "message": "As medições em thefaceanalysis.com são proporções, não um veredito médico ou de beleza."
+ },
+ "tabCamera": {
+  "message": "Espelho"
+ },
+ "tabPhoto": {
+  "message": "Inverter uma foto"
+ },
+ "eyebrow": {
+  "message": "Espelho real · luz · guia do rosto"
+ },
+ "h1": {
+  "message": "Tire uma foto do rosto reta e bem iluminada"
+ },
+ "lede": {
+  "message": "Alterne entre o espelho e como uma câmera realmente vê você, alinhe o rosto com o guia, ajuste a luz e salve a foto para medi-la."
+ },
+ "guideEyes": {
+  "message": "olhos"
+ },
+ "guideChin": {
+  "message": "queixo"
+ },
+ "retryCam": {
+  "message": "Tentar a câmera de novo"
+ },
+ "usePhotoInstead": {
+  "message": "Inverter uma foto"
+ },
+ "camDenied": {
+  "message": "O acesso à câmera foi bloqueado. Permita a câmera para esta extensão na barra de endereço ou nas configurações do navegador e tente de novo."
+ },
+ "camMissing": {
+  "message": "Nenhuma câmera encontrada. Conecte uma ou inverta uma foto."
+ },
+ "camError": {
+  "message": "A câmera não iniciou. Feche outros apps que a usam e tente de novo."
+ },
+ "camFirst": {
+  "message": "Inicie a câmera primeiro."
+ },
+ "secView": {
+  "message": "Visão"
+ },
+ "viewMirror": {
+  "message": "Espelho"
+ },
+ "viewTrue": {
+  "message": "Visão real"
+ },
+ "badgeMirror": {
+  "message": "Visão de espelho"
+ },
+ "badgeTrue": {
+  "message": "Visão real · como os outros veem você"
+ },
+ "hintMirror": {
+  "message": "Invertida como o espelho do banheiro: o rosto que você conhece."
+ },
+ "hintTrue": {
+  "message": "Sem inverter: como outras pessoas e câmeras veem você."
+ },
+ "zoom": {
+  "message": "Zoom"
+ },
+ "guides": {
+  "message": "Guia do rosto"
+ },
+ "ringLight": {
+  "message": "Anel de luz"
+ },
+ "timerOff": {
+  "message": "Timer desligado"
+ },
+ "timerOn": {
+  "message": "Timer $SEC$ s",
+  "placeholders": {
+   "sec": {
+    "content": "$1"
+   }
+  }
+ },
+ "secLight": {
+  "message": "Verificação de luz"
+ },
+ "lightWaiting": {
+  "message": "Aguardando a câmera…"
+ },
+ "photoWaiting": {
+  "message": "Adicione uma foto para verificar a luz."
+ },
+ "lightGood": {
+  "message": "Luz boa: uniforme e suficiente."
+ },
+ "lightTooDark": {
+  "message": "Escuro demais. Fique de frente para uma janela ou luminária."
+ },
+ "lightDim": {
+  "message": "Um pouco escuro. Chegue mais perto da luz."
+ },
+ "lightTooBright": {
+  "message": "Claro demais: partes do rosto estouram. Suavize a luz ou afaste-se dela."
+ },
+ "lightShiny": {
+  "message": "Um pouco de brilho na pele. Difunda a luz ou vire um pouco."
+ },
+ "lightUnevenLeft": {
+  "message": "Desigual: o lado esquerdo da imagem está mais escuro. Vire-se para a luz."
+ },
+ "lightUnevenRight": {
+  "message": "Desigual: o lado direito da imagem está mais escuro. Vire-se para a luz."
+ },
+ "mBrightness": {
+  "message": "Brilho"
+ },
+ "mEvenness": {
+  "message": "Uniformidade"
+ },
+ "mHighlights": {
+  "message": "Estourado"
+ },
+ "freeze": {
+  "message": "Congelar imagem"
+ },
+ "retake": {
+  "message": "Voltar ao vivo"
+ },
+ "save": {
+  "message": "Salvar foto"
+ },
+ "saveMirrored": {
+  "message": "Salvar a versão espelhada"
+ },
+ "keys": {
+  "message": "Teclas: Espaço congelar · S salvar · M espelho/real · G guia · L anel de luz"
+ },
+ "saved": {
+  "message": "Salva nos seus downloads. Agora envie-a para uma medição abaixo."
+ },
+ "savedFlipped": {
+  "message": "Foto invertida salva nos seus downloads."
+ },
+ "notImage": {
+  "message": "Esse arquivo não é uma imagem."
+ },
+ "dropTitle": {
+  "message": "Solte uma foto aqui"
+ },
+ "dropBody": {
+  "message": "ou clique para escolher; você também pode colar uma imagem"
+ },
+ "asSaved": {
+  "message": "Como foi salva"
+ },
+ "flipped": {
+  "message": "Invertida"
+ },
+ "saveFlipped": {
+  "message": "Salvar a versão invertida"
+ },
+ "chooseAnother": {
+  "message": "Escolher outra foto"
+ },
+ "photoPrivacy": {
+  "message": "A foto é aberta só neste dispositivo."
+ },
+ "secMeasure": {
+  "message": "Meça"
+ },
+ "measureBody": {
+  "message": "Abra uma medição gratuita em thefaceanalysis.com (em inglês) e envie a foto que você salvou. Esta extensão não envia nada."
+ },
+ "measureBtn": {
+  "message": "Medir em thefaceanalysis.com"
+ },
+ "toolSymmetry": {
+  "message": "Teste de simetria facial"
+ },
+ "toolShape": {
+  "message": "Detector de formato de rosto"
+ },
+ "toolAttractiveness": {
+  "message": "Teste de atratividade"
+ },
+ "toolGolden": {
+  "message": "Proporção áurea do rosto"
+ },
+ "toolThirds": {
+  "message": "Terços faciais"
+ },
+ "toolEyes": {
+  "message": "Detector de formato dos olhos"
+ },
+ "toolCanthal": {
+  "message": "Inclinação cantal"
+ },
+ "toolJawline": {
+  "message": "Avaliação da mandíbula"
+ },
+ "toolMirrorSite": {
+  "message": "Espelho online"
+ },
+ "popupTitle": {
+  "message": "Espelho real e inverter foto"
+ },
+ "rateAsk": {
+  "message": "O espelho está ajudando?"
+ },
+ "rateLink": {
+  "message": "Avalie na loja"
+ },
+ "rateDismiss": {
+  "message": "Não mostrar de novo"
+ },
+ "htmlLang": {
+  "message": "pt-BR"
+ }
+}

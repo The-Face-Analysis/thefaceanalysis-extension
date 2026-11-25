@@ -20,3 +20,7 @@ li a{display:block;padding:7px 10px;border-radius:10px;background:#f4f2f7;color:
 li a:hover{background:#f1eaff;color:var(--accent)}
 footer{padding:0 16px 14px;color:var(--mute);font-size:11px}
 footer p{margin:4px 0}
+
+.rate a{color:var(--accent);font-weight:600}
+.rate-x{all:unset;cursor:pointer;margin-left:8px;padding:0 4px;color:var(--mute);font-size:14px;line-height:1}
+.rate-x:hover{color:var(--ink)}

@@ -21,6 +21,7 @@ export function t(key: string, subs?: string[]) {
 }
 
 export function i18nDom(root: ParentNode = document) {
+  if (root === document) document.documentElement.lang = t("htmlLang");
   root.querySelectorAll<HTMLElement>("[data-i18n]").forEach((el) => {
     el.textContent = t(el.dataset.i18n!);
   });

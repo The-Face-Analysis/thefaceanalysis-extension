@@ -1,0 +1,253 @@
+{
+ "extName": {
+  "message": "Espejo online – Espejo de cámara y voltear imagen | The Face Analysis"
+ },
+ "extDesc": {
+  "message": "Espejo online para tu webcam: mira tu cara sin invertir, como te ven los demás, revisa la luz y voltea imágenes. Nada se sube."
+ },
+ "cmdOpen": {
+  "message": "Abrir el espejo real"
+ },
+ "popupEyebrow": {
+  "message": "The Face Analysis"
+ },
+ "popupCamera": {
+  "message": "Abrir el espejo"
+ },
+ "popupCameraSub": {
+  "message": "Espejo o vista real, luz, guía facial"
+ },
+ "popupPhoto": {
+  "message": "Voltear una foto"
+ },
+ "popupPhotoSub": {
+  "message": "Mira una imagen como te ven los demás"
+ },
+ "popupTools": {
+  "message": "Medir en thefaceanalysis.com (en inglés)"
+ },
+ "popupShortcut": {
+  "message": "Atajo: Alt+Shift+F abre el espejo."
+ },
+ "privacy": {
+  "message": "La imagen de tu cámara y tus fotos se quedan en este dispositivo. La extensión no sube nada ni tiene rastreo."
+ },
+ "notAdvice": {
+  "message": "Las mediciones de thefaceanalysis.com son proporciones, no un veredicto médico ni de belleza."
+ },
+ "tabCamera": {
+  "message": "Espejo"
+ },
+ "tabPhoto": {
+  "message": "Voltear una foto"
+ },
+ "eyebrow": {
+  "message": "Espejo real · luz · guía facial"
+ },
+ "h1": {
+  "message": "Haz una foto de tu cara recta y bien iluminada"
+ },
+ "lede": {
+  "message": "Cambia entre el espejo y cómo te ve de verdad una cámara, alinea tu cara con la guía, corrige la luz y guarda la foto para medirla."
+ },
+ "guideEyes": {
+  "message": "ojos"
+ },
+ "guideChin": {
+  "message": "barbilla"
+ },
+ "retryCam": {
+  "message": "Probar la cámara otra vez"
+ },
+ "usePhotoInstead": {
+  "message": "Mejor voltear una foto"
+ },
+ "camDenied": {
+  "message": "Se bloqueó el acceso a la cámara. Permite la cámara para esta extensión en la barra de direcciones o en los ajustes del navegador y vuelve a intentarlo."
+ },
+ "camMissing": {
+  "message": "No se encontró ninguna cámara. Conecta una o voltea una foto."
+ },
+ "camError": {
+  "message": "La cámara no pudo iniciarse. Cierra otras apps que la usen y vuelve a intentarlo."
+ },
+ "camFirst": {
+  "message": "Primero inicia la cámara."
+ },
+ "secView": {
+  "message": "Vista"
+ },
+ "viewMirror": {
+  "message": "Espejo"
+ },
+ "viewTrue": {
+  "message": "Vista real"
+ },
+ "badgeMirror": {
+  "message": "Vista de espejo"
+ },
+ "badgeTrue": {
+  "message": "Vista real · como te ven los demás"
+ },
+ "hintMirror": {
+  "message": "Invertida como un espejo de baño: la cara a la que estás acostumbrado."
+ },
+ "hintTrue": {
+  "message": "Sin invertir: como te ven otras personas y las cámaras."
+ },
+ "zoom": {
+  "message": "Zoom"
+ },
+ "guides": {
+  "message": "Guía facial"
+ },
+ "ringLight": {
+  "message": "Aro de luz"
+ },
+ "timerOff": {
+  "message": "Temporizador apagado"
+ },
+ "timerOn": {
+  "message": "Temporizador $SEC$ s",
+  "placeholders": {
+   "sec": {
+    "content": "$1"
+   }
+  }
+ },
+ "secLight": {
+  "message": "Revisión de luz"
+ },
+ "lightWaiting": {
+  "message": "Esperando a la cámara…"
+ },
+ "photoWaiting": {
+  "message": "Añade una foto para revisar su luz."
+ },
+ "lightGood": {
+  "message": "Buena luz: uniforme y suficiente."
+ },
+ "lightTooDark": {
+  "message": "Demasiado oscuro. Ponte frente a una ventana o una lámpara."
+ },
+ "lightDim": {
+  "message": "Un poco oscuro. Acércate a la luz."
+ },
+ "lightTooBright": {
+  "message": "Demasiado brillante: partes de la cara se queman. Suaviza la luz o aléjate de ella."
+ },
+ "lightShiny": {
+  "message": "Algo de brillo en la piel. Difumina la luz o gira un poco."
+ },
+ "lightUnevenLeft": {
+  "message": "Desigual: el lado izquierdo de la imagen está más oscuro. Gira hacia la luz."
+ },
+ "lightUnevenRight": {
+  "message": "Desigual: el lado derecho de la imagen está más oscuro. Gira hacia la luz."
+ },
+ "mBrightness": {
+  "message": "Brillo"
+ },
+ "mEvenness": {
+  "message": "Uniformidad"
+ },
+ "mHighlights": {
+  "message": "Quemado"
+ },
+ "freeze": {
+  "message": "Congelar imagen"
+ },
+ "retake": {
+  "message": "Volver al vídeo"
+ },
+ "save": {
+  "message": "Guardar foto"
+ },
+ "saveMirrored": {
+  "message": "Guardar la versión de espejo"
+ },
+ "keys": {
+  "message": "Teclas: Espacio congelar · S guardar · M espejo/real · G guía · L aro de luz"
+ },
+ "saved": {
+  "message": "Guardada en tus descargas. Ahora súbela a una medición de abajo."
+ },
+ "savedFlipped": {
+  "message": "Foto volteada guardada en tus descargas."
+ },
+ "notImage": {
+  "message": "Ese archivo no es una imagen."
+ },
+ "dropTitle": {
+  "message": "Suelta una foto aquí"
+ },
+ "dropBody": {
+  "message": "o haz clic para elegir una; también puedes pegar una imagen"
+ },
+ "asSaved": {
+  "message": "Como se guardó"
+ },
+ "flipped": {
+  "message": "Volteada"
+ },
+ "saveFlipped": {
+  "message": "Guardar la versión volteada"
+ },
+ "chooseAnother": {
+  "message": "Elegir otra foto"
+ },
+ "photoPrivacy": {
+  "message": "La foto solo se abre en este dispositivo."
+ },
+ "secMeasure": {
+  "message": "Mídela"
+ },
+ "measureBody": {
+  "message": "Abre una medición gratuita en thefaceanalysis.com (en inglés) y sube la foto que guardaste. Esta extensión no sube nada."
+ },
+ "measureBtn": {
+  "message": "Medir en thefaceanalysis.com"
+ },
+ "toolSymmetry": {
+  "message": "Test de simetría facial"
+ },
+ "toolShape": {
+  "message": "Detector de forma de cara"
+ },
+ "toolAttractiveness": {
+  "message": "Test de atractivo"
+ },
+ "toolGolden": {
+  "message": "Proporción áurea del rostro"
+ },
+ "toolThirds": {
+  "message": "Tercios faciales"
+ },
+ "toolEyes": {
+  "message": "Detector de forma de ojos"
+ },
+ "toolCanthal": {
+  "message": "Inclinación cantal"
+ },
+ "toolJawline": {
+  "message": "Valoración de mandíbula"
+ },
+ "toolMirrorSite": {
+  "message": "Espejo online"
+ },
+ "popupTitle": {
+  "message": "Espejo real y voltear foto"
+ },
+ "rateAsk": {
+  "message": "¿Te sirve el espejo?"
+ },
+ "rateLink": {
+  "message": "Valóralo en la tienda"
+ },
+ "rateDismiss": {
+  "message": "No volver a mostrar"
+ },
+ "htmlLang": {
+  "message": "es"
+ }
+}

@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "True Mirror & Face Photo Helper by The Face Analysis"
+  "message": "True Mirror: Webcam Mirror & Flip Image – The Face Analysis"
  },
  "extDesc": {
-  "message": "True mirror and camera view, lighting check, face guide grid and photo flip — take a straight, well-lit photo of your own face."
+  "message": "Online true mirror for your webcam: see the non-reversed view others see, check your light and flip any image. Nothing is uploaded."
  },
  "cmdOpen": {
   "message": "Open the true mirror"
@@ -237,5 +237,17 @@
  },
  "popupTitle": {
   "message": "True Mirror & Face Photo Helper"
+ },
+ "rateAsk": {
+  "message": "Finding the mirror useful?"
+ },
+ "rateLink": {
+  "message": "Rate it in the store"
+ },
+ "rateDismiss": {
+  "message": "Don't show again"
+ },
+ "htmlLang": {
+  "message": "en"
  }
 }

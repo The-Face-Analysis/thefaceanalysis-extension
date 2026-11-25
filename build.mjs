@@ -36,7 +36,7 @@ function out(target, manifest) {
   for (const [from, to] of FONTS) copyFileSync(`node_modules/${from}`, `${dir}/fonts/${to}`);
   cpSync("LICENSES", `${dir}/LICENSES`, { recursive: true });
   writeFileSync(`${dir}/manifest.json`, JSON.stringify(manifest, null, 2));
-  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip .`);
+  execSync(`cd ${dir} && zip -qrX ../${pkg.name}-${target}-${pkg.version}.zip . -x '*.DS_Store' -x '__MACOSX/*'`);
 }
 
 out("chrome", base);
@@ -49,4 +49,9 @@ ff.browser_specific_settings = {
 };
 out("firefox", ff);
 rmSync("dist/tmp", { recursive: true, force: true });
-console.log("built", pkg.version, "→ dist/chrome, dist/firefox + zips");
+
+// Source zip for addons.mozilla.org reviewers: everything needed to rebuild, nothing else.
+// Rebuild: npm ci && npm run build → dist/firefox is identical to the uploaded add-on.
+const SOURCE = ["package.json", "package-lock.json", "build.mjs", "tsconfig.json", "README.md", "LICENSE", "LICENSES", "src", "static"];
+execSync(`zip -qrX dist/${pkg.name}-source-${pkg.version}.zip ${SOURCE.join(" ")} -x '*.DS_Store'`);
+console.log("built", pkg.version, "→ dist/chrome, dist/firefox + zips, source zip");

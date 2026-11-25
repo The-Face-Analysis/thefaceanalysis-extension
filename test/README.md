@@ -6,4 +6,5 @@ E2E (Playwright Chromium; Chrome stable ignores --load-extension):
   node test/e2e.mjs dist/chrome             # popup, mirror, true view + ring, freeze/save (4:3 check), flip tab, narrow
   node test/e2e-denied.mjs dist/chrome      # camera-blocked state
   node test/e2e-light-even.mjs dist/chrome  # sym.jpg (right half mirrored) must read "Good light" 1.00; face.jpg "Uneven" ~0.62
+  node test/e2e-rate-locale.mjs dist/chrome  # rate line hidden <5 use days, shown at 5 with the store review URL, gone after ×
   node store/make-assets.mjs dist/chrome store   # 1280×800 screenshots + 440×280 tile

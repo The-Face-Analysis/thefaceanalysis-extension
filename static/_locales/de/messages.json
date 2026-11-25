@@ -1,0 +1,253 @@
+{
+ "extName": {
+  "message": "Spiegel-Kamera – Webcam-Spiegel & Bild spiegeln | The Face Analysis"
+ },
+ "extDesc": {
+  "message": "Online-Spiegel für deine Webcam: sieh dein Gesicht ungespiegelt wie andere, prüfe das Licht und spiegle jedes Bild. Kein Upload."
+ },
+ "cmdOpen": {
+  "message": "Echten Spiegel öffnen"
+ },
+ "popupEyebrow": {
+  "message": "The Face Analysis"
+ },
+ "popupCamera": {
+  "message": "Spiegel öffnen"
+ },
+ "popupCameraSub": {
+  "message": "Spiegel oder echte Ansicht, Licht, Gesichtsraster"
+ },
+ "popupPhoto": {
+  "message": "Foto spiegeln"
+ },
+ "popupPhotoSub": {
+  "message": "Sieh ein Bild so, wie andere dich sehen"
+ },
+ "popupTools": {
+  "message": "Auf thefaceanalysis.com messen (Englisch)"
+ },
+ "popupShortcut": {
+  "message": "Kurzbefehl: Alt+Shift+F öffnet den Spiegel."
+ },
+ "privacy": {
+  "message": "Dein Kamerabild und deine Fotos bleiben auf diesem Gerät. Die Erweiterung lädt nichts hoch und trackt nicht."
+ },
+ "notAdvice": {
+  "message": "Messungen auf thefaceanalysis.com sind Proportionen, kein medizinisches oder Schönheitsurteil."
+ },
+ "tabCamera": {
+  "message": "Spiegel"
+ },
+ "tabPhoto": {
+  "message": "Foto spiegeln"
+ },
+ "eyebrow": {
+  "message": "Echter Spiegel · Lichtcheck · Gesichtsraster"
+ },
+ "h1": {
+  "message": "Mach ein gerades, gut ausgeleuchtetes Foto deines Gesichts"
+ },
+ "lede": {
+  "message": "Wechsle zwischen Spiegel und dem, wie eine Kamera dich wirklich sieht, richte dein Gesicht am Raster aus, korrigiere das Licht und speichere das Foto zum Messen."
+ },
+ "guideEyes": {
+  "message": "Augen"
+ },
+ "guideChin": {
+  "message": "Kinn"
+ },
+ "retryCam": {
+  "message": "Kamera erneut versuchen"
+ },
+ "usePhotoInstead": {
+  "message": "Stattdessen ein Foto spiegeln"
+ },
+ "camDenied": {
+  "message": "Der Kamerazugriff wurde blockiert. Erlaube die Kamera für diese Erweiterung in der Adressleiste oder in den Browsereinstellungen und versuche es erneut."
+ },
+ "camMissing": {
+  "message": "Keine Kamera gefunden. Schließ eine an oder spiegle ein Foto."
+ },
+ "camError": {
+  "message": "Die Kamera ließ sich nicht starten. Schließ andere Apps, die sie nutzen, und versuche es erneut."
+ },
+ "camFirst": {
+  "message": "Starte zuerst die Kamera."
+ },
+ "secView": {
+  "message": "Ansicht"
+ },
+ "viewMirror": {
+  "message": "Spiegel"
+ },
+ "viewTrue": {
+  "message": "Echte Ansicht"
+ },
+ "badgeMirror": {
+  "message": "Spiegelansicht"
+ },
+ "badgeTrue": {
+  "message": "Echte Ansicht · wie andere dich sehen"
+ },
+ "hintMirror": {
+  "message": "Gespiegelt wie ein Badezimmerspiegel – das Gesicht, das du kennst."
+ },
+ "hintTrue": {
+  "message": "Nicht gespiegelt – so sehen dich andere Menschen und Kameras."
+ },
+ "zoom": {
+  "message": "Zoom"
+ },
+ "guides": {
+  "message": "Gesichtsraster"
+ },
+ "ringLight": {
+  "message": "Lichtring"
+ },
+ "timerOff": {
+  "message": "Timer aus"
+ },
+ "timerOn": {
+  "message": "Timer $SEC$ s",
+  "placeholders": {
+   "sec": {
+    "content": "$1"
+   }
+  }
+ },
+ "secLight": {
+  "message": "Lichtcheck"
+ },
+ "lightWaiting": {
+  "message": "Warte auf die Kamera…"
+ },
+ "photoWaiting": {
+  "message": "Füg ein Foto hinzu, um sein Licht zu prüfen."
+ },
+ "lightGood": {
+  "message": "Gutes Licht – gleichmäßig und hell genug."
+ },
+ "lightTooDark": {
+  "message": "Zu dunkel. Dreh dich zu einem Fenster oder einer Lampe."
+ },
+ "lightDim": {
+  "message": "Etwas dunkel. Geh näher ans Licht."
+ },
+ "lightTooBright": {
+  "message": "Zu hell – Teile des Gesichts sind überstrahlt. Mach das Licht weicher oder geh weiter weg."
+ },
+ "lightShiny": {
+  "message": "Etwas Glanz auf der Haut. Streu das Licht oder dreh dich leicht."
+ },
+ "lightUnevenLeft": {
+  "message": "Ungleichmäßig: Die linke Bildseite ist dunkler. Dreh dich zum Licht."
+ },
+ "lightUnevenRight": {
+  "message": "Ungleichmäßig: Die rechte Bildseite ist dunkler. Dreh dich zum Licht."
+ },
+ "mBrightness": {
+  "message": "Helligkeit"
+ },
+ "mEvenness": {
+  "message": "Gleichmäßigkeit"
+ },
+ "mHighlights": {
+  "message": "Überstrahlt"
+ },
+ "freeze": {
+  "message": "Bild einfrieren"
+ },
+ "retake": {
+  "message": "Zurück zum Live-Bild"
+ },
+ "save": {
+  "message": "Foto speichern"
+ },
+ "saveMirrored": {
+  "message": "Gespiegelte Version speichern"
+ },
+ "keys": {
+  "message": "Tasten: Leertaste einfrieren · S speichern · M Spiegel/echt · G Raster · L Lichtring"
+ },
+ "saved": {
+  "message": "In deinen Downloads gespeichert. Lade es jetzt unten bei einer Messung hoch."
+ },
+ "savedFlipped": {
+  "message": "Gespiegeltes Foto in deinen Downloads gespeichert."
+ },
+ "notImage": {
+  "message": "Diese Datei ist kein Bild."
+ },
+ "dropTitle": {
+  "message": "Foto hier ablegen"
+ },
+ "dropBody": {
+  "message": "oder klicken zum Auswählen – du kannst auch ein Bild einfügen"
+ },
+ "asSaved": {
+  "message": "Wie gespeichert"
+ },
+ "flipped": {
+  "message": "Gespiegelt"
+ },
+ "saveFlipped": {
+  "message": "Gespiegelte Version speichern"
+ },
+ "chooseAnother": {
+  "message": "Anderes Foto wählen"
+ },
+ "photoPrivacy": {
+  "message": "Das Foto wird nur auf diesem Gerät geöffnet."
+ },
+ "secMeasure": {
+  "message": "Messen"
+ },
+ "measureBody": {
+  "message": "Öffne eine kostenlose Messung auf thefaceanalysis.com (Englisch) und lade das gespeicherte Foto hoch. Diese Erweiterung lädt nichts hoch."
+ },
+ "measureBtn": {
+  "message": "Auf thefaceanalysis.com messen"
+ },
+ "toolSymmetry": {
+  "message": "Gesichtssymmetrie-Test"
+ },
+ "toolShape": {
+  "message": "Gesichtsform-Erkennung"
+ },
+ "toolAttractiveness": {
+  "message": "Attraktivitätstest"
+ },
+ "toolGolden": {
+  "message": "Goldener Schnitt im Gesicht"
+ },
+ "toolThirds": {
+  "message": "Gesichtsdrittel"
+ },
+ "toolEyes": {
+  "message": "Augenform-Erkennung"
+ },
+ "toolCanthal": {
+  "message": "Kanthalneigung"
+ },
+ "toolJawline": {
+  "message": "Kieferlinien-Bewertung"
+ },
+ "toolMirrorSite": {
+  "message": "Online-Spiegel"
+ },
+ "popupTitle": {
+  "message": "Echter Spiegel & Foto spiegeln"
+ },
+ "rateAsk": {
+  "message": "Ist der Spiegel nützlich?"
+ },
+ "rateLink": {
+  "message": "Im Store bewerten"
+ },
+ "rateDismiss": {
+  "message": "Nicht mehr anzeigen"
+ },
+ "htmlLang": {
+  "message": "de"
+ }
+}
